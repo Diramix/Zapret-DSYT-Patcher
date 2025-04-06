@@ -1,0 +1,20 @@
+{
+  "list": [
+    {
+      "name": "Twitter",
+      "url": "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/domains/twitter.txt"
+    },
+    {
+      "name": "SoundCloud",
+      "url": "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/domains/soundcloud.txt"
+    },
+    {
+      "name": "Patreon",
+      "url": "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/domains/patreon.txt"
+    },
+    {
+      "name": "Gofile",
+      "url": "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/domains/gofile.txt"
+    }
+  ]
+}
