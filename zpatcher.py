@@ -8,13 +8,13 @@ from colorama import init, Fore
 init(autoreset=True)
 
 BYPASS_URL = "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/bypass-list.json"
-GENERAL_LIST_FILE = "list-general.txt"
-STATE_FILE = "res\\zapret-bypass-data.json"
+GENERAL_LIST_FILE = r"lists\list-general.txt"
+STATE_FILE = r"res\zapret-bypass-data.json"
 CHECK_UPDATES_FILE = "check_updates.bat"
 CHECK_UPDATES_OLD = "check_updates.old"
 CHECK_UPDATES_NEW = os.path.join("res", CHECK_UPDATES_FILE)
 HOSTS_FILE = r"C:\Windows\System32\drivers\etc\hosts"
-LOCAL_HOSTS_OVERWRITE = "hosts"
+LOCAL_HOSTS_OVERWRITE = r"res\hosts"
 VERSION_FILE = os.path.join("res", "version.txt")
 
 
@@ -189,6 +189,9 @@ def revert_overwrite(original_hosts, start_tag, end_tag):
 
 def add_filters(services, state):
     clear()
+    os.makedirs("lists", exist_ok=True)
+    GENERAL_LIST_FILE = os.path.join("lists", "list-general.txt")
+
     available = [s for s in services if s["name"] not in [x[0] for x in state["applied"]]]
     if not available:
         print(Fore.YELLOW + "No filters available to add.")
