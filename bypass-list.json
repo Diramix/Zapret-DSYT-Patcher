@@ -15,6 +15,10 @@
     {
       "name": "Gofile",
       "url": "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/domains/gofile.txt"
+    },
+    {
+      "name": "Catbox",
+      "url": "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/domains/catbox.txt"
     }
   ]
 }
