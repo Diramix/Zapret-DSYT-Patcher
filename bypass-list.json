@@ -19,6 +19,10 @@
     {
       "name": "Catbox",
       "url": "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/domains/catbox.txt"
+    },
+    {
+      "name": "No Thought is a Crime",
+      "url": "https://raw.githubusercontent.com/Diramix/Zapret-DSYT-Patcher/refs/heads/main/domains/ntc.txt"
     }
   ]
 }
